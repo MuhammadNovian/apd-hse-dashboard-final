@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "npx vite build",
-    "preview": "vite preview"
+  "dev": "vite",
+  "build": "npm install && npx vite build",
+  "preview": "vite preview"
   },
   "dependencies": {
     "chart.js": "^4.4.0",
